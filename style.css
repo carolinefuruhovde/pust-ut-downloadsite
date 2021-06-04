@@ -1,0 +1,377 @@
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+@font-face {
+  font-family: "Hobeaux";
+  src: url("https://use.typekit.net/nkz4ccy.css");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hobeaux", sans-serif;
+  src: url("https://use.typekit.net/nkz4ccy.css");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hobeaux";
+  src: url("https://use.typekit.net/nkz4ccy.css");
+  font-weight: 500;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: papayawhip;
+  font-family: "Hobeaux";
+  color: rgb(35, 48, 59);
+}
+
+/* a:link {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 100px;
+  padding: 10px 10px;
+  background: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 50px;
+} */
+
+.container {
+  display: relative;
+  width: auto;
+  height: 800px;
+  margin: none;
+  background-image: url("images/Background.png");
+  background-size: 1700px;
+  background-position: -100px -100px;
+  background-repeat: no-repeat;
+}
+
+.frontcontainer {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 80px;
+  width: 1120px;
+  height: 600px;
+  border-radius: 50px;
+  background-image: url("images/Bakgrunn.png");
+  background-size: 1800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: none;
+  box-shadow: 10px 10px 10px #86571d;
+}
+
+.frontcontainer:hover {
+  box-shadow: 15px 15px 15px #86571d;
+  transition: 300ms ease;
+}
+
+header {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 570px;
+  font-family: "Hobeaux";
+  font-weight: 500;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.icon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-top: 48px;
+  margin-left: 500px;
+}
+
+.frontimage {
+  position: absolute;
+  width: 950px;
+  height: 950px;
+  margin-top: 1px;
+  margin-left: 150px;
+}
+
+.button {
+  position: absolute;
+  margin-top: 650px;
+  margin-left: 120px;
+  padding: 15px 30px;
+  float: none;
+  color: rgb(35, 48, 59);
+  background-color: rgb(255, 130, 35);
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: "Hobeaux";
+  font-weight: 300;
+  cursor: pointer;
+  box-shadow: 1px 4px 2px #055c92;
+}
+
+.button:hover {
+  box-shadow: 4px 4px 2px #055c92;
+  transition: 300ms ease;
+}
+
+.button2 {
+  position: absolute;
+  margin-top: 680px;
+  margin-left: 560px;
+  padding: 15px 30px;
+  float: none;
+  color: rgb(35, 48, 59);
+  background-color: rgb(255, 130, 35);
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: "Hobeaux";
+  font-weight: 300;
+  cursor: pointer;
+  box-shadow: 1px 4px 2px #d15f9e;
+}
+
+.button2:hover {
+  box-shadow: 4px 4px 2px #d15f9e;
+  transition: 300ms ease;
+}
+
+.container2 {
+  display: relative;
+  width: auto;
+  height: 800px;
+  margin: auto;
+  background-image: url("images/Rosabakgrunn.png");
+  background-size: 1700px;
+  background-position: -100px -100px;
+  background-repeat: no-repeat;
+}
+
+.container3 {
+  display: relative;
+  width: auto;
+  height: 800px;
+  margin: auto;
+  background-image: url("images/Grønnbakgrunn.png");
+  background-size: 1700px;
+  background-position: -100px -100px;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 200px;
+  font-size: 45px;
+}
+.undertext {
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 350px;
+  font-size: 20px;
+}
+
+.interval {
+  position: absolute;
+  width: 1000px;
+  margin-left: 130px;
+  margin-top: 300px;
+}
+.info {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  position: absolute;
+  margin-left: 180px;
+  margin-top: 20px;
+  font-size: 40px;
+  color: blanchedalmond;
+}
+
+h3 {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.Mediter {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 110px;
+  width: 250px;
+  height: 250px;
+}
+
+#Mediter {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 170px;
+  font-size: 20px;
+  color: blanchedalmond;
+}
+
+#Mediter:hover {
+  text-decoration: underline;
+}
+
+.Dans {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 385px;
+  width: 250px;
+  height: 250px;
+}
+
+#Dans {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 490px;
+  font-size: 20px;
+  color: blanchedalmond;
+}
+
+#Dans:hover {
+  text-decoration: underline;
+}
+
+.Musikk {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 645px;
+  width: 250px;
+  height: 250px;
+}
+
+#Musikk {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 740px;
+  font-size: 20px;
+  color: blanchedalmond;
+}
+
+#Musikk:hover {
+  text-decoration: underline;
+}
+
+.Sov {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 910px;
+  width: 250px;
+  height: 250px;
+}
+
+#Sov {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 1020px;
+  font-size: 20px;
+  color: blanchedalmond;
+}
+
+#Sov:hover {
+  text-decoration: underline;
+}
+
+.Kos {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 110px;
+  width: 250px;
+  height: 250px;
+}
+
+#Kos {
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 220px;
+  font-size: 20px;
+  color: blanchedalmond;
+}
+
+#Kos:hover {
+  text-decoration: underline;
+}
+
+.Drikk {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 385px;
+  width: 250px;
+  height: 250px;
+}
+
+#Drikk {
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 480px;
+  font-size: 20px;
+  color: blanchedalmond;
+}
+
+#Drikk:hover {
+  text-decoration: underline;
+}
+
+.Spis {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 645px;
+  width: 250px;
+  height: 250px;
+}
+
+#Spis {
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 755px;
+  font-size: 20px;
+  color: blanchedalmond;
+}
+
+#Spis:hover {
+  text-decoration: underline;
+}
+
+.Tren {
+  position: absolute;
+  margin-top: 440px;
+  margin-left: 910px;
+  width: 260px;
+  height: 260px;
+}
+
+#Tren {
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 1000px;
+  font-size: 20px;
+  color: blanchedalmond;
+}
+
+#Tren:hover {
+  text-decoration: underline;
+}
