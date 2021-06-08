@@ -37,7 +37,7 @@ body {
 }
 
 body {
-  background-image: url("images/Webbackground.png");
+  background-image: url("images/Webbakgrunn.png");
   background-size: 1700px;
   background-position: -100px -100px;
   background-repeat: no-repeat;
@@ -99,10 +99,10 @@ header {
 
 .icon {
   position: absolute;
-  width: 60px;
-  height: 60px;
-  margin-top: 48px;
-  margin-left: 500px;
+  width: 80px;
+  height: 80px;
+  margin-top: 42px;
+  margin-left: 480px;
 }
 
 .frontimage {
@@ -149,11 +149,11 @@ header {
   font-family: "Hobeaux";
   font-weight: 300;
   cursor: pointer;
-  box-shadow: 1px 4px 2px #d15f9e;
+  box-shadow: 1px 4px 2px #86571d;
 }
 
 .button2:hover {
-  box-shadow: 4px 4px 2px #d15f9e;
+  box-shadow: 4px 4px 2px #86571d;
   transition: 300ms ease;
 }
 
@@ -205,13 +205,20 @@ h1 {
   text-align: center;
   font-size: 30px;
 }
+.info2 {
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 180px;
+  text-align: center;
+  font-size: 30px;
+}
 
 h2 {
   position: absolute;
   margin-left: 180px;
   margin-top: 20px;
   font-size: 40px;
-  color: blanchedalmond;
+  color: rgb(35, 48, 59);
 }
 
 h3 {
@@ -223,7 +230,7 @@ h3 {
 
 .Mediter {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 110px;
   width: 250px;
   height: 250px;
@@ -231,10 +238,10 @@ h3 {
 
 #Mediter {
   position: absolute;
-  margin-top: 350px;
-  margin-left: 170px;
+  margin-top: 390px;
+  margin-left: 190px;
   font-size: 20px;
-  color: blanchedalmond;
+  color: rgb(35, 48, 59);
 }
 
 #Mediter:hover {
@@ -243,7 +250,7 @@ h3 {
 
 .Dans {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 385px;
   width: 250px;
   height: 250px;
@@ -251,10 +258,10 @@ h3 {
 
 #Dans {
   position: absolute;
-  margin-top: 350px;
+  margin-top: 390px;
   margin-left: 490px;
   font-size: 20px;
-  color: blanchedalmond;
+  color: rgb(35, 48, 59);
 }
 
 #Dans:hover {
@@ -263,7 +270,7 @@ h3 {
 
 .Musikk {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 645px;
   width: 250px;
   height: 250px;
@@ -271,10 +278,10 @@ h3 {
 
 #Musikk {
   position: absolute;
-  margin-top: 350px;
+  margin-top: 390px;
   margin-left: 740px;
   font-size: 20px;
-  color: blanchedalmond;
+  color: rgb(35, 48, 59);
 }
 
 #Musikk:hover {
@@ -283,7 +290,7 @@ h3 {
 
 .Sov {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 910px;
   width: 250px;
   height: 250px;
@@ -291,10 +298,10 @@ h3 {
 
 #Sov {
   position: absolute;
-  margin-top: 350px;
+  margin-top: 390px;
   margin-left: 1020px;
   font-size: 20px;
-  color: blanchedalmond;
+  color: rgb(35, 48, 59);
 }
 
 #Sov:hover {
@@ -303,7 +310,7 @@ h3 {
 
 .Kos {
   position: absolute;
-  margin-top: 450px;
+  margin-top: 460px;
   margin-left: 110px;
   width: 250px;
   height: 250px;
@@ -314,7 +321,7 @@ h3 {
   margin-top: 700px;
   margin-left: 220px;
   font-size: 20px;
-  color: blanchedalmond;
+  color: rgb(35, 48, 59);
 }
 
 #Kos:hover {
@@ -323,7 +330,7 @@ h3 {
 
 .Drikk {
   position: absolute;
-  margin-top: 450px;
+  margin-top: 460px;
   margin-left: 385px;
   width: 250px;
   height: 250px;
@@ -334,7 +341,7 @@ h3 {
   margin-top: 700px;
   margin-left: 480px;
   font-size: 20px;
-  color: blanchedalmond;
+  color: rgb(35, 48, 59);
 }
 
 #Drikk:hover {
@@ -343,7 +350,7 @@ h3 {
 
 .Spis {
   position: absolute;
-  margin-top: 450px;
+  margin-top: 460px;
   margin-left: 645px;
   width: 250px;
   height: 250px;
@@ -354,7 +361,7 @@ h3 {
   margin-top: 700px;
   margin-left: 755px;
   font-size: 20px;
-  color: blanchedalmond;
+  color: rgb(35, 48, 59);
 }
 
 #Spis:hover {
@@ -363,7 +370,7 @@ h3 {
 
 .Tren {
   position: absolute;
-  margin-top: 440px;
+  margin-top: 450px;
   margin-left: 910px;
   width: 260px;
   height: 260px;
@@ -374,7 +381,7 @@ h3 {
   margin-top: 700px;
   margin-left: 1000px;
   font-size: 20px;
-  color: blanchedalmond;
+  color: rgb(35, 48, 59);
 }
 
 #Tren:hover {
